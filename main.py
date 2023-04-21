@@ -41,6 +41,7 @@ class UserIN(BaseModel):
 
 origins = [
     "*",   
+    "http://68.183.67.194/",
             
 ]
 app.add_middleware(
